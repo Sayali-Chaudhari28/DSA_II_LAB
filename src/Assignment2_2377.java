@@ -13,7 +13,6 @@
  c no.	: C22020222303
  Div 	: A
  Batch 	: A3
- Github link: https://github.com/Sayalinc28/DSA_II_LAB/blob/master/src/Assignment2_2377.java
 ********************************************************************************************************/
 
 import java.util.LinkedList;
@@ -52,7 +51,7 @@ class Binary_Search_Tree{
 			else {
 				ptr = root;
 				while(ptr!=null) {
-					if(ptr.data > d) {
+					if(ptr.data < d) {
 						//insert left child
 						if(ptr.left == null) {
 							ptr.left = newtree;
@@ -63,7 +62,7 @@ class Binary_Search_Tree{
 							ptr = ptr.left;
 						}
 					}
-					if(ptr.data < d) {
+					if(ptr.data > d) {
 						//insert right child
 						if(ptr.right == null) {
 							ptr.right = newtree;
