@@ -29,7 +29,7 @@ class Avl{
 		root=null;
 	}
 	//create function
-	void create() {	 
+	void create() {
 		String res;
 		do {
 			Scanner s = new Scanner(System.in);
