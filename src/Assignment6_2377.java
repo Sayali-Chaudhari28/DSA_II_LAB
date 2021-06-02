@@ -31,7 +31,7 @@ class Table {
 	long acc, id_;
 	String name_;
 	double balance_;
-	int size=3,flag_[], currentsize=0;;
+	int size=7,flag_[], currentsize=0;;
 	
 	
 	Customer hash_table[] = new Customer[size];
